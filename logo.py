@@ -26,7 +26,6 @@ for msg in m:
     sys.stdout.flush()
     time.sleep(0.06)
 '''.format(name)
-
 h1 = open(output+'wlc.py', 'w')
 h1.write(wlc)
 h1.close()
