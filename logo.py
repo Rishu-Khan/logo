@@ -13,8 +13,6 @@ os.system('pkg install ruby -y')
 os.system('gem install lolcat')
 
 output = '/data/data/com.termux/files/usr/etc/'
-
-print('')
 name = raw_input('Input your Name : ')
 
 wlc = '''
@@ -48,16 +46,13 @@ echo "
    < ━━━━━━━━━━━ [★]RISHU×KHAN[★] ━━━━━━━━━━━━ > " |lolcat
 '''
 bashrc2 = '''
-
 python /data/data/com.termux/files/usr/etc/wlc.py
 if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
         command_not_found_handle() {
                 /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
         }
 fi
-
 #PS1="\\033[1;31mTHBD~#"
-
 PS1="\[\e[1;31m┌──\\a─TIME─\\a──┐\\033[1;31m\\a┌──\\a─DATE─\\a───>\\033[1;31m
 \\a┌─[\\033[1;92m \@\\033[1;32m ]──[\\033[1;92m \d\\033[1;32m ]\\033[1;32m
 \\a├─[\\033[1;32m\w\\033[1;32m]\\033[1;32m
