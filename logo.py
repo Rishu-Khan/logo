@@ -19,7 +19,7 @@ name = raw_input('Input your Name : ')
 
 wlc = '''
 import os,sys,time,random
-color = ["\\033[1;31m","\\033[1;32m"]
+color = ["\\033[1;32m","\\033[1;32m"]
 m = random.choice(color)+"Welcome RISHU {} \\n"
 for msg in m:
     sys.stdout.write(msg)
@@ -30,7 +30,6 @@ for msg in m:
 h1 = open(output+'wlc.py', 'w')
 h1.write(wlc)
 h1.close()
-
 bashrc1 = '''
 clear
 echo
