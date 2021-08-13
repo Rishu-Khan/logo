@@ -49,10 +49,11 @@ echo
     echo "  █  \033[1;92m##....##...##..##....##.##.....##.##.....##  \033[1;91m█" |lolcat
     echo "  █  \033[1;92m##.....##.####..######..##.....##..#######.  \033[1;91m█" |lolcat
     echo "  █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█" |lolcat
-'''
-bashrc2 = '''
 echo "
    < ━━━━━━━━━━━ [★]RISHU×KHAN[★] ━━━━━━━━━━━━ > " |lolcat
+
+'''
+bashrc2 = '''
 
 python /data/data/com.termux/files/usr/etc/wlc.py
 if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
@@ -72,7 +73,7 @@ h2 = open(output+'bash.bashrc', 'w')
 h2.write(bashrc1)
 h2.write("\nfiglet    '    "+name+"' |lolcat\n")
 h2.write(bashrc2)
-h2.write('\[\e[32m\]└─>\[\e[36m\]'+name+'\[\e[36m\]RISHU\[\e[1;32m\] "\n')
+h2.write('\[\e[32m\]└─>\[\e[36m\]'+name+'\[\e[36m\]RISHU─>\[\e[1;32m\] "\n')
 h2.write('echo -e "\e[6 q"')
 h2.close()
 print('DONE')
