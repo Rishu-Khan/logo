@@ -20,12 +20,11 @@ name = raw_input('Input your Name : ')
 wlc = '''
 import os,sys,time,random
 color = ["\\033[1;31m","\\033[1;32m"]
-m = random.choice(color)+"Welcome {} \\n"
+m = random.choice(color)+"Welcome RISHU {} \\n"
 for msg in m:
     sys.stdout.write(msg)
     sys.stdout.flush()
     time.sleep(0.06)
-print("")
 '''.format(name)
 
 h1 = open(output+'wlc.py', 'w')
@@ -49,7 +48,6 @@ echo
     echo "  █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█" |lolcat
 echo "
    < ━━━━━━━━━━━ [★]RISHU×KHAN[★] ━━━━━━━━━━━━ > " |lolcat
-
 '''
 bashrc2 = '''
 
