@@ -50,12 +50,9 @@ echo
     echo "  █  \033[1;92m##.....##.####..######..##.....##..#######.  \033[1;91m█" |lolcat
     echo "  █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█" |lolcat
 '''
-
 bashrc2 = '''
 echo "
-             We Do Not HaCk to impress
-                        We HaCk To Express
-   < ━━━━━━━━━━━ [★]BDh@Ckers [★] ━━━━━━━━━━━━ > " |lolcat
+   < ━━━━━━━━━━━ [★]RISHU×KHAN[★] ━━━━━━━━━━━━ > " |lolcat
 
 python /data/data/com.termux/files/usr/etc/wlc.py
 if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
@@ -68,14 +65,14 @@ fi
 
 PS1="\[\e[1;31m┌──\\a─TIME─\\a──┐\\033[1;31m\\a┌──\\a─DATE─\\a───>\\033[1;31m
 \\a┌─[\\033[1;92m \@\\033[1;32m ]──[\\033[1;92m \d\\033[1;32m ]\\033[1;32m
-\\a├─[\\033[1;32m\w\\033[1;36m]\\033[1;36m
+\\a├─[\\033[1;32m\w\\033[1;32m]\\033[1;32m
 '''
 
 h2 = open(output+'bash.bashrc', 'w')
 h2.write(bashrc1)
 h2.write("\nfiglet    '    "+name+"' |lolcat\n")
 h2.write(bashrc2)
-h2.write('\[\e[34m\]└─>\[\e[35m\]'+name+'\[\e[34m\][~]:#\[\e[1;32m\] "\n')
+h2.write('\[\e[32m\]└─>\[\e[36m\]'+name+'\[\e[32m\]\[\e[1;32m\] "\n')
 h2.write('echo -e "\e[6 q"')
 h2.close()
 print('DONE')
