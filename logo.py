@@ -17,8 +17,6 @@ name = raw_input('Input your Name : ')
 
 wlc = '''
 import os,sys,time,random
-color = ["\\033[1;32m","\\033[1;32m"]
-m = random.choice(color)+"Welcome RISHU {} \\n"
 for msg in m:
     sys.stdout.write(msg)
     sys.stdout.flush()
@@ -29,7 +27,6 @@ h1.write(wlc)
 h1.close()
 bashrc1 = '''
 clear
-echo
 echo "
    < ━━━━━━━━━ [★] T E R M U X [★] ━━━━━━━━━━━━ >  " |lolcat
 echo
